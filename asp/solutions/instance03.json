@@ -1,0 +1,40 @@
+{
+ "Solver": "clingo version 5.4.0",
+ "Input": [
+  "yosenabe.lp",
+  "instances/instance03.lp"
+ ],
+ "Call": [
+  {
+   "Witnesses": [
+    {
+     "Value": [
+      "target(1,2,1,4)",
+      "target(2,3,2,4)",
+      "target(3,4,3,1)",
+      "target(2,6,4,6)",
+      "target(1,5,4,5)",
+      "target(5,7,4,7)",
+      "target(5,3,5,2)",
+      "target(6,6,6,4)",
+      "target(6,1,7,1)",
+      "target(7,6,7,2)"
+     ]
+    }
+   ]
+  }
+ ],
+ "Result": "SATISFIABLE",
+ "Models": {
+  "Number": 1,
+  "More": "no"
+ },
+ "Calls": 1,
+ "Time": {
+  "Total": 0.007,
+  "Solve": 0.0,
+  "Model": 0.0,
+  "Unsat": 0.0,
+  "CPU": 0.007
+ }
+}
